@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Bhanu Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <a class="navbar-brand" href="#">
+            <span class="text-red">B</span>hanu
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron bg-black text-white" id="home">
+        <div class="container">
+            <div class="row">
+                <div class="content col-md-6">
+                    <h2 class="display-5 mb-4">Front End Developer</h2>
+                    <h1 class="display-3 mb-4">Hi, I'm <span class="text-red">Bhanu</span></h1>
+                    <h1 class="display-3"> From India</h1>
+                    <a href="#about" class="btn btn-light-red btn-lg mt-4">Learn More About Me</a>
+
+                 </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <img src="images/reddress-croped.png" alt="Profile Picture" class="custom-image">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about" class="container-fluid section bg-black">
+        <!-- <div id="about"> -->
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+            <img class="img-fluid rounded-circle" src="images/Photo.jpg">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p class="about-me-text">Hello! I'm a passionate web developer with experience in creating dynamic and responsive websites. My skills include HTML, CSS, JavaScript, and more. Learning new technologies to enhance user experiences and create visually appealing designs.
+            Continuous improvement and attention to detail are key aspects of my approach to web development projects.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab( 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Frontend Web Development</span><br>Building web sites/User interfaces</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            </ul>
+                            </div>
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                <li><span>2024 - Current</span><br>Frontend Developer Intern at Meta Scifor technologies</li>
+                                
+                                <li><span>May-2022 - Dec-2022</span><br>Junior React Developer at Encora Innovation Labs India Pvt Ltd. </li>
+                                <li><span>Jan-2022 - May-2022</span><br>Intern as Frontend React Developer at Pratian technologies.</li>
+                                </ul>
+                            </div>   
+                                <div class="tab-contents" id="education">
+                                <ul>
+                                <li><span>2021</span><br>B. Tech From KITS, Markapur, A.P</li>
+                                <li><span>2017</span><br>Inter From Gowtham Junior College, Markapur, A.P. </li>
+                                <li><span>2015</span><br>SSC from ZPH Girls Markapur, A.P.</li>
+                                </ul>
+                            </div> 
+                        </div>
+            </div>
+        </div>
+    <!-- </div> -->
+    </section>
+
+    <section id="projects" class="container-fluid section bg-black">
+        <!-- <div id="projects"> -->
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list d-flex justify-content-between">
+                <div class="work">
+                    <img src="images/jobcheck.jpeg" alt="Image 1" class="image">
+                    <div class="layer">
+                        <h3>Job Check Website</h3>
+                        <p>job portal platforms like Naukri and LinkedIn, connecting users with professionals.</p>
+                        <a href="https://github.com/bhanuteja-09/Job-Check.git" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/react1.jpeg" alt="Image 1" class="image">
+                    <div class="layer">
+                        <h3>React Project</h3>
+                        <p>React-based web application with dynamic components and state management.</p>
+                        <a href="https://github.com/bhanuteja-09/React1.git" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/bootstrap.jpeg" alt="Image 1" class="image">
+                    <div class="layer">
+                        <h3>Bootstrap Design</h3>
+                        <p>Responsive design using Bootstrap framework with custom styling.</p>
+                        <a href="https://github.com/bhanuteja-09/Bootstrap.git" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-solid fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="button">See more</a>
+        </div>
+    <!-- </div> -->
+    </section>
+    
+
+    <section id="contact" class="container-fluid section bg-black">
+        <!-- <div id="contact"> -->
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title1">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i> bhanutejaswinikaluva@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +917729888344</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/bhanu.kaluva.7/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/bhanukaluva/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/bhanu-tejaswini-kaluva/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Bhanu_Resume.pdf" download class="downloadbutton">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="contactForm" onsubmit="return validateForm()">
+                        <input type="text" id="name" name="Name" placeholder="Your Name" required>
+                        <div class="error-message" id="nameError"></div>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        <div class="error-message" id="emailError"></div>
+                        <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                        <div class="error-message" id="messageError"></div>
+                        <button type="submit" class="submitbutton">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    <!-- </div> -->
+    </section>
+    
+    
+    <div class="copyright">
+        <p>&copy; 2024 Bhanu. All rights reserved.</p>
+    </div>
+
+    <button id="backToTop" class="backtotop">Back To Top</button>
+
+    <script>
+        
+        document.addEventListener("DOMContentLoaded", function() {
+    // Smooth scrolling for navigation links
+    const navbarLinks = document.querySelectorAll('.navbar-nav a');
+    navbarLinks.forEach(navbarLink => {
+        navbarLink.addEventListener('click', function(event) {
+            event.preventDefault();
+            const hash = this.hash;
+            const offset = document.querySelector('.navbar').offsetHeight;
+
+            // Smooth scroll to the hash target
+            window.scrollTo({
+                top: document.querySelector(hash).offsetTop - offset,
+                behavior: 'smooth'
+            });
+
+            // Close the responsive navbar menu after clicking on a link
+            const navbarCollapse = document.querySelector(".navbar-collapse");
+            navbarCollapse.classList.remove("show");
+        });
+    });
+
+    // Responsive menu toggle
+    const navbarToggler = document.querySelector(".navbar-toggler");
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+
+    navbarToggler.addEventListener("click", function() {
+        navbarCollapse.classList.toggle("show");
+
+        // Toggle the aria-expanded attribute for accessibility
+        const isOpen = navbarCollapse.classList.contains("show");
+        navbarToggler.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    // Close navbar menu when clicking outside on mobile
+    document.addEventListener('click', function(event) {
+        if (!navbarCollapse.contains(event.target) && !navbarToggler.contains(event.target)) {
+            navbarCollapse.classList.remove('show');
+            navbarToggler.setAttribute("aria-expanded", "false");
+        }
+    });
+
+    // Animate navigation items on load
+    function animateNav() {
+        const navItems = document.querySelectorAll('.navbar-nav li');
+        navItems.forEach((item, index) => {
+            setTimeout(() => {
+                item.style.opacity = 0;
+                setTimeout(() => {
+                    item.style.opacity = 1;
+                }, 300);
+            }, index * 100);
+        });
+    }
+
+    animateNav(); // Trigger animation on initial load
+});
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
