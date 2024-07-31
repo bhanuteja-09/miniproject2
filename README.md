@@ -24,7 +24,7 @@ portfolio/
 │
 └── index.html
 
-# Project Details
+## Project Details
 ## HTML Structure
 * Navbar: A responsive navbar with links to different sections of the site (Home, About Me, Projects, Contact).
 * Header (Jumbotron): Introduces Bhanu with a professional title and a call-to-action button.
